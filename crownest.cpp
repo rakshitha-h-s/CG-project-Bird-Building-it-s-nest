@@ -924,7 +924,7 @@ void movement1() // movement for crow to come towards pot
  glutSwapBuffers();
 }
 
-void movement2() // movement of crow toward left side stone
+void movement2() // movement of crow toward left side 
 {
 
  glClear(GL_COLOR_BUFFER_BIT);
@@ -942,7 +942,7 @@ void movement2() // movement of crow toward left side stone
  glutSwapBuffers();
 }
 
-void movement3() // movement of crow bring stone toward pot
+void movement3() 
 {
  glClear(GL_COLOR_BUFFER_BIT);
  glPushMatrix();
@@ -1114,11 +1114,6 @@ void keyAction(unsigned char key,int x,int y)
  delay(1.2);
  }
  break;
-
-
- /*case '9': // last page of project
- lastpage();
- break;*/
 
  case 27: //for stopping project
  exit(0);
